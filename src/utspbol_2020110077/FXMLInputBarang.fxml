@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="741.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2020110077.FXMLInputBarangController">
+   <children>
+      <Label layoutX="42.0" layoutY="92.0" text="Kode Barang" />
+      <Label layoutX="245.0" layoutY="14.0" text="Input Data Pemesanan Barang">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="150.0" text="Nama Barang" />
+      <Label layoutX="42.0" layoutY="199.0" text="Harga Beli" />
+      <Button fx:id="btnsimpan" layoutX="630.0" layoutY="681.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnbatal" layoutX="758.0" layoutY="681.0" mnemonicParsing="false" onAction="#batalklik" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="849.0" layoutY="681.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <TextField fx:id="txtkodebarang" layoutX="210.0" layoutY="92.0" />
+      <TextField fx:id="txtnamabarang" layoutX="210.0" layoutY="144.0" />
+      <TextField fx:id="txthargabeli" layoutX="210.0" layoutY="193.0" />
+      <Label layoutX="42.0" layoutY="254.0" text="Harga Jual" />
+      <TextField fx:id="txthargajual" layoutX="210.0" layoutY="248.0" />
+      <Label layoutX="41.0" layoutY="301.0" text="Stok" />
+      <TextField fx:id="txtstok" layoutX="210.0" layoutY="301.0" prefHeight="39.0" prefWidth="224.0" />
+      <TextField layoutX="32.0" layoutY="371.0" promptText="Cari Data" />
+      <TableView fx:id="tbvBarang" layoutX="32.0" layoutY="418.0" prefHeight="230.0" prefWidth="850.0">
+        <columns>
+          <TableColumn prefWidth="174.0" text="Kode" />
+          <TableColumn minWidth="0.0" prefWidth="170.0" text="Nama Barang" />
+            <TableColumn minWidth="0.0" prefWidth="170.0" text="Harga Beli" />
+            <TableColumn minWidth="0.0" prefWidth="170.0" text="Harga Jual" />
+            <TableColumn minWidth="0.0" prefWidth="170.0" text="Stok" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2020110077.FXMLInputCustController">
+   <children>
+      <Label layoutX="157.0" layoutY="22.0" text=" Data Customer">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="80.0" text="Id Member" />
+      <Label layoutX="43.0" layoutY="133.0" text="Nama Barang" />
+      <Label layoutX="43.0" layoutY="187.0" text="Alamat" />
+      <Label layoutX="43.0" layoutY="245.0" text="Total" />
+      <TextField fx:id="txtidmember" layoutX="188.0" layoutY="74.0" />
+      <TextField fx:id="txtnamabarang" layoutX="188.0" layoutY="127.0" />
+      <TextField fx:id="txtalamat" layoutX="188.0" layoutY="181.0" />
+      <TextField fx:id="txttotal" layoutX="188.0" layoutY="239.0" />
+      <Button fx:id="btnsimpan" layoutX="181.0" layoutY="322.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnquit" layoutX="353.0" layoutY="322.0" mnemonicParsing="false" onAction="#quitklik" text="Quit" />
+      <Button fx:id="btnbatal" layoutX="279.0" layoutY="322.0" mnemonicParsing="false" onAction="#batalklik" text="Batal" />
+   </children>
+</AnchorPane>

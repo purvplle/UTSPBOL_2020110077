@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="387.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2020110077.FXMLDocumentController">
+   <children>
+      <MenuBar prefHeight="39.0" prefWidth="550.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Input">
+            <items>
+              <MenuItem fx:id="inputbarang" mnemonicParsing="false" onAction="#inputbarangklik" text="Barang" />
+                  <MenuItem fx:id="Inputcust" mnemonicParsing="false" onAction="#Inputcustklik" text="Customer" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Display">
+               <items>
+                  <MenuItem fx:id="displaybarang" mnemonicParsing="false" onAction="#displaybarangklik" text="Barang" />
+                  <MenuItem fx:id="displaycust" mnemonicParsing="false" onAction="#displaycustklik" text="Customer" />
+               </items>
+            </Menu>
+            <Menu fx:id="btnkeluar" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
